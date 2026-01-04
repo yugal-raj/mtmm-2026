@@ -10,6 +10,7 @@ export default function HomepageSlideShow(){
   const [current, setCurrent] = useState(0);
   const autoSlide = useRef(true);
   const resumeTimeout = useRef<NodeJS.Timeout | null>(null);
+  const [isDesktop, setIsDesktop] = useState(false);
   
   useEffect(() => {
     const interval = setInterval(() => {
@@ -20,6 +21,17 @@ export default function HomepageSlideShow(){
 
     return () => clearInterval(interval);
   }, []);
+
+  useEffect(() => {
+    const mq = window.matchMedia("(min-width: 768px)");
+
+    const handler = () => setIsDesktop(mq.matches);
+    handler(); // initial
+
+    mq.addEventListener("change", handler);
+    return () => mq.removeEventListener("change", handler);
+  }, []);
+
 
 
   // Pause auto-slide on click and schedule resume
@@ -57,16 +69,16 @@ export default function HomepageSlideShow(){
         fontSize: "50px",
         top: "250px",
         left: "0px",
-        width: "80px",
+        width: isDesktop? "80px":"50px",
         height: "80px",
-        backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-transparent black
+        backgroundColor: isDesktop? "rgba(0, 0, 0, 0.3)":"rgba(0, 0, 0, 0.5)",
         color: "white",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         borderRadius: "20%", // circular button
         cursor: "pointer",
-        backdropFilter: "blur(10px)", // frosted glass
+        backdropFilter: isDesktop? "blur(10px)":"", // frosted glass
         WebkitBackdropFilter: "blur(8px)", // Safari support
         border: "1px solid rgba(255, 255, 255, 0.2)" // optional border for glass effect
       }}
@@ -82,16 +94,16 @@ export default function HomepageSlideShow(){
         fontSize: "50px",
         top: "250px",
         right: "0px",
-        width: "80px",
+        width: isDesktop? "80px":"50px",
         height: "80px",
-        backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-transparent black
+        backgroundColor: isDesktop? "rgba(0, 0, 0, 0.3)":"rgba(0, 0, 0, 0.5)", // semi-transparent black
         color: "white",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         borderRadius: "20%", // circular button
         cursor: "pointer",
-        backdropFilter: "blur(10px)", // frosted glass
+        backdropFilter: isDesktop? "blur(10px)":"", // frosted glass
         WebkitBackdropFilter: "blur(8px)", // Safari support
         border: "1px solid rgba(255, 255, 255, 0.2)" // optional border for glass effect
       }}

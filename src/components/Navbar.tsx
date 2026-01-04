@@ -70,6 +70,9 @@ export default function Navbar() {
         <button
           className="text-[#1e2ac0]"
           onClick={() => setOpen(!open)}
+          style={{
+            fontSize:"30px"
+          }}
         >
           ☰
         </button>

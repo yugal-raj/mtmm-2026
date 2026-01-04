@@ -4,7 +4,7 @@ export default function HowToReach(){
             style={{
                 maxWidth:"800px",
                 width:"50vw",
-                minWidth:"420px"
+                minWidth:"300px"
             }}
         >
             <h2 className="text-[30px] font-bold text-center"
