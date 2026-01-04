@@ -5,7 +5,7 @@ export default function Logo(){
             <div className="flex flex-col items-center justify center">
                 <h1 className="text-[28px] font-bold text-center"
                 style={{"color": "#854949","fontFamily":"ui-rounded"}}
-                >Modern Trends in Molecular Magetism (MTMM)</h1>
+                >Modern Trends in Molecular Magnetism (MTMM)</h1>
                 <div className="flex flex-col gap-0">
                     <h3 className="text-[23px]/6 font-bold mt-2 text-center"
                     style={{"color": "#175783","fontFamily":"ui-rounded"}}
