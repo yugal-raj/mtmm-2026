@@ -67,14 +67,14 @@ interested in exploring hill landscapes and experiencing the natural beauty of N
             <h2 className="text-[30px] font-bold text-center"
                 style={{"color":"#2364b7"}}
             >Places To Visit</h2>
-            <ol className="list-decimal ml-6 space-y-6">
+            <ol className="list-decimal ml-6 space-y-6 marker:text-[#01419f] font-semibold text-lg">
         {places.map((place, index) => (
           <li key={index}>
-            <h3 className="font-semibold text-lg mb-2 text-[#01419f] mt-5">{index+1+'. '+place.title}:</h3>
-            <p className="text-gray-700 text-justify"
-                style={{
-                    paddingLeft:"20px"
-                }}
+            <h3 className="font-semibold text-lg mb-2 text-[#01419f] mt-5">{place.title}:</h3>
+            <p className="text-black text-justify text-[16px]"
+              style={{
+                fontWeight:"100"
+              }}
             >{place.description}</p>
           </li>
         ))}
