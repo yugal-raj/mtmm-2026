@@ -1,10 +1,9 @@
-import Image from "next/image";
-import Homepage from "@/components/Homepage"
+import Delegates from "@/components/Delegates"
 
 export default function Home() {
   return (
   <div className="bg-white pt-1 pb-15">
-    <Homepage/>
+    <Delegates/>
   </div>
   )
 }

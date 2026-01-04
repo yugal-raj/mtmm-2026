@@ -1,10 +1,9 @@
-import Image from "next/image";
-import Homepage from "@/components/Homepage"
+import Contact from "@/components/Contact"
 
 export default function Home() {
   return (
   <div className="bg-white pt-1 pb-15">
-    <Homepage/>
+    <Contact/>
   </div>
   )
 }

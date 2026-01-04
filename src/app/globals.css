@@ -24,3 +24,29 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* globals.css */
+
+/* Reset margins/padding */
+html, body {
+  margin: 0;
+  padding: 0;
+
+  /* Prevent black flash by setting solid background */
+  background-color: #ffffff;
+
+  /* Prevent horizontal scroll */
+  overflow-x: hidden;
+
+  /* Optional: vertical scroll only as needed */
+  overflow-y: auto;
+
+  /* Ensure body height grows with content but not extra */
+  min-height: 100%;
+}
+
+/* Optional: smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
