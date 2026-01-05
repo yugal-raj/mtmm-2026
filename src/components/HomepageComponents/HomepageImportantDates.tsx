@@ -1,4 +1,8 @@
+"use client"
+import { usePathname, useRouter} from "next/navigation";
 export default function HomepageImporatantDates() {
+    const pathName = usePathname();
+    const isImportantDates = pathName === "/importantDates";
     const scheduleData = [
         { activity: "Abstract submission starts", date: "October 10, 2026" },
         { activity: "Registration opens", date: "October 10, 2026" },
@@ -9,7 +13,7 @@ export default function HomepageImporatantDates() {
     return (
         <div className="w-[80vw]"
             style={{
-                maxWidth:"1280px"
+                maxWidth: isImportantDates? "1280px" : "1150px"
             }}
         >
             <h2 className="text-[30px] font-bold text-center"
