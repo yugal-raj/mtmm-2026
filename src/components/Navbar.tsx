@@ -3,13 +3,14 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import HeaderLogo from "@/components/HeaderLogo"
 import HeaderLogoMobile from "@/components/HeaderLogoMobile"
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter} from "next/navigation";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [isDesktop, setIsDesktop] = useState(false);
   const [isDesktopHeader, setIsDesktopHeader] = useState(false);
   const pathName = usePathname();
+  const router = useRouter();
 
   useEffect(() => {
     const mq = window.matchMedia("(min-width: 1020px)");
@@ -53,6 +54,8 @@ export default function Navbar() {
             return (<Link
               key={nav.text}
               href={nav.route}
+              prefetch
+              onMouseEnter={() => router.prefetch(nav.route)}
               className={`text-[16px] font-medium transition ${isActive? "text-[#1e2ac0]" : "text-[#1e2ac0] hover:text-white"}`}
               style={{
                  textDecoration: isActive ? "underline" : "none"
