@@ -22,9 +22,12 @@ December 2026. The present edition of the conference will feature Keynote
 Lectures, Invited Lectures, Oral Presentations, Poster Presentations and will provide
 a vibrant platform for sharing cutting-edge research, fostering interdisciplinary
 dialogue and building meaningful collaborations that advance scientific inquiry and
-global knowledge exchange in emerging aspects of molecular magnetism.<br/><br/>
+global knowledge exchange in emerging aspects of molecular magnetism.</p>
+            <p className="pt-2 text-justify" 
+                style={{"color":"black"}}>
 The scientific program will cover a broad range of topics, including (but not limited
 to):
+            </p>
             <ul className="list-disc ml-6 space-y-0 text-black">
                 <li>Single Molecule Magnets and Molecular Qubits</li>
                 <li>Switchable Magnetic Materials</li>
@@ -35,7 +38,8 @@ to):
                 <li>Multifunctional Magnetic Materials</li>
                 <li>Magnetic Nanoparticles and Their Applications</li>
             </ul>
-            <br/>
+            <p className="pt-2 text-justify" 
+                style={{"color":"black"}}>
                 We cordially invite you to participate in this conference, thereby making it a grand
 success. Any queries regarding conference will be communicated through the email: <a href="mailto:mtmm2026@gmail.com"
                 style={{color:"#3737ff"}}
