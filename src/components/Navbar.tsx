@@ -33,7 +33,7 @@ export default function Navbar() {
     { text: "About", route: "/about" },
     { text: "Important Dates", route: "/importantDates" },
     { text: "Registration", route: "/registration" },
-    { text: "Accomodation", route: "/accomodation" },
+    { text: "Accommodation", route: "/accommodation" },
     { text: "Delegates", route: "/delegates" },
     { text: "Sponsors", route: "/sponsors" },
     { text: "Committees", route: "/committees" },
