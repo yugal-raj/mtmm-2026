@@ -10,22 +10,20 @@ export default function AboutDepartment(){
             >About The Department of Chemical Sciences</h2>
             <p className="pt-2 text-justify" 
                 style={{"color":"black"}}
-            >The Department of Chemical Sciences at Tezpur University stands as a vibrant center of
-teaching, research, and innovation, reflecting the University’s commitment to academic
-excellence. Since its inception in 1997, the department has grown into a dynamic academic
-unit, marked by a strong research culture and a learner-centric environment. With a diverse
-spectrum of academic programs ranging from integrated undergraduate courses to
-postgraduate and doctoral research, the department nurtures students to become skilled
-professionals and researchers. State-of-the-art laboratories, modern classrooms, and advanced
-research facilities provide an enabling ecosystem for cutting-edge experimentation and
-interdisciplinary exploration.
-Supported by prestigious funding schemes such as DST-FIST and UGC-SAP (DRS-II), the
-department actively advances frontier research in chemical sciences through nationally and
-internationally funded projects. Strong global collaborations, consultancy activities, and
-industry-relevant research highlight its academic strength, while its globally placed alumni
+            >
+                Department of Chemical Sciences is one of the most active departments of
+prestigious Best Visitor&#39;s Award-winning educational institute, Tezpur University.
+Decorated by well-trained and extremely motivated faculty as well as bright students,
+the department constantly strives to maintain a culture of excellence in research and
 
-reflect the department’s lasting impact and excellence across academia, industry, and
-research sectors</p>
+uphold the highest standards in chemical education. The Department of Chemical
+Sciences was started in the year 1997. The Department has been offering Ph.D. in
+Chemical Sciences, M.Sc., integrated M.Sc. and integrated B.Sc./B.Ed. program in
+Chemistry. The Department is housed with 17 research laboratories, 7 general
+laboratories, 5 sophisticated laboratories, 7 class rooms, one conference and one
+seminar hall. This Department is supported by DST-FIST and UGC-SAP (DRS-II)
+level.
+            </p>
         </div>
     )
 }
