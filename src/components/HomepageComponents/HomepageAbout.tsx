@@ -15,7 +15,7 @@ Bombay in 2016, this international conference has evolved into a flagship bienni
 conclave of internationally acclaimed researchers, academicians, and industry
 experts to discuss recent advances, emerging trends, and future directions in the
 field of molecular magnetism. Subsequent editions of MTMM were successfully
-organized at IISER Bhopal (2019), IIT Kharagpur (2022) and IISc Bangalore (2022).
+organized at IISER Bhopal (2019), IIT Kharagpur (2022) and IISc Bangalore (2024).
 The Department of Chemical Sciences, Tezpur University, Assam will be organizing
 the 5<sup>th</sup> edition of Modern Trends in Molecular Magnetism (MTMM) from 2-5
 December 2026. The present edition of the conference will feature Keynote
