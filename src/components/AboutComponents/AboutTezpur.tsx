@@ -7,7 +7,7 @@ export default function AboutTezpur(){
         >
             <h2 className="text-[30px] font-bold text-center"
                 style={{"color":"#2364b7"}}
-            >About Tezpur</h2>
+            >Tezpur</h2>
             <p className="pt-2 text-justify" 
                 style={{"color":"black"}}
             >

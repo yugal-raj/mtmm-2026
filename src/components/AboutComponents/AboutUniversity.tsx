@@ -7,7 +7,7 @@ export default function AboutUniversity(){
         >
             <h2 className="text-[30px] font-bold text-center"
                 style={{"color":"#2364b7"}}
-            >About Tezpur University</h2>
+            >Tezpur University</h2>
             <p className="pt-2 text-justify" 
                 style={{"color":"black"}}
             >Tezpur University was established by an Act of Parliament in 1994. The objectives of

@@ -7,7 +7,7 @@ export default function AboutDepartment(){
         >
             <h2 className="text-[30px] font-bold text-center"
                 style={{"color":"#2364b7"}}
-            >About The Department of Chemical Sciences</h2>
+            >The Department of Chemical Sciences</h2>
             <p className="pt-2 text-justify" 
                 style={{"color":"black"}}
             >
