@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MTMM 2026 | Modern Trends in Molecular Magnetism 2026",
-  description:"Official website of MTMM 2026 – Modern Trends in Molecular Magnetism 2026. Find event details, schedule, registration, speakers, and updates.",
+  title: "Modern Trends in Molecular Magnetism (MTMM)",
+  description:"Official website of Modern Trends in Molecular Magnetism 2026 (MTMM 2026). Find event details, schedule, registration, speakers, and updates.",
   authors: [{ name: "Yugal Raj Deka", url:"https://github.com/yugal-raj" }],
   verification: {
     google: "XSt2hBQFpBCyDOU3FCeXUsO02MxWuIPz_ED3kFXGcHM"
