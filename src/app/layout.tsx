@@ -18,8 +18,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Modern Trends in Molecular Magetism",
   description: "International conference on Modern Trends in Molecular Magnetism, hosted by Tezpur University. Explore keynote talks, research presentations, and scientific discussions.",
-  authors: [{ name: "Yugal Raj Deka", url:"https://github.com/yugal-raj" }]
-};
+  authors: [{ name: "Yugal Raj Deka", url:"https://github.com/yugal-raj" }],
+  verification: {
+    google: "8ppyTOJd5wqQG-2-jrbiIt9guw53uerqhLZoTxZWP04"
+  }
+}
 
 export default function RootLayout({
   children,
