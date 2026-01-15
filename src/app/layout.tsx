@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description: "International conference on Modern Trends in Molecular Magnetism, hosted by Tezpur University. Explore keynote talks, research presentations, and scientific discussions.",
   authors: [{ name: "Yugal Raj Deka", url:"https://github.com/yugal-raj" }],
   verification: {
-    google: "8ppyTOJd5wqQG-2-jrbiIt9guw53uerqhLZoTxZWP04"
+    google: "XSt2hBQFpBCyDOU3FCeXUsO02MxWuIPz_ED3kFXGcHM"
   }
 }
 
