@@ -1,9 +1,9 @@
 import { MetadataRoute } from "next";
-export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const BASE_URL = "https://mtmm2026.vercel.app";
-    const lastModified = new Date("2026-01-01");
+  const BASE_URL = "https://mtmm2026.vercel.app";
+  const lastModified = "2026-01-01";
+
   return [
     {
       url: `${BASE_URL}/`,
