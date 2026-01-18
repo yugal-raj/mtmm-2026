@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://mtmm2026.vercel.app/sitemap.xml",
+    sitemap: "https://mtmm2026.website/sitemap.xml",
   };
 }
