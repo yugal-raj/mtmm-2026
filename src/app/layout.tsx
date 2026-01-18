@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mtmm2026.vercel.app"),
+  metadataBase: new URL("https://mtmm2026.website"),
   title: "Modern Trends in Molecular Magnetism (MTMM)",
   description:"Official website of Modern Trends in Molecular Magnetism 2026 (MTMM 2026). Find event details, schedule, registration, speakers, and updates.",
   authors: [{ name: "Yugal Raj Deka", url:"https://github.com/yugal-raj" }],
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "Modern Trends in Molecular Magnetism (MTMM)",
     description:
       "International conference on Modern Trends in Molecular Magnetism (MTMM 2026), hosted by Tezpur University, Assam, India.",
-    url: "https://mtmm2026.vercel.app",
+    url: "https://mtmm2026.website",
     siteName: "MTMM 2026",
     type: "website",
   },
