@@ -20,7 +20,10 @@ export const metadata: Metadata = {
   description:"Official website of Modern Trends in Molecular Magnetism 2026 (MTMM 2026). Find event details, schedule, registration, speakers, and updates.",
   authors: [{ name: "Yugal Raj Deka", url:"https://github.com/yugal-raj" }],
   verification: {
-    google: "XSt2hBQFpBCyDOU3FCeXUsO02MxWuIPz_ED3kFXGcHM"
+    google: [
+      "XSt2hBQFpBCyDOU3FCeXUsO02MxWuIPz_ED3kFXGcHM",
+      "5X9-1mmrJmBeFFy0H75qGawr3SmJretsf_kYr6EaG7c"
+    ]
   },
   alternates: {
     canonical: "/",
