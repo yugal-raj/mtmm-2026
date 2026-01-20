@@ -20,7 +20,7 @@ export const speakers = [
         designation: "Prof.",
         name: "Masahiro Yamashita",
         institution: "Tohoku University, Japan",
-        website:"",
+        website:"https://yamashita-group.wixsite.com/yamashita-group",
         photo: "/images/speakers/MasahiroYamashita.jpg",
         position: "50% -2%",
         zoom: 1
