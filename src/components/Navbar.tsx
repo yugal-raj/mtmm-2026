@@ -34,7 +34,7 @@ export default function Navbar() {
     { text: "Important Dates", route: "/importantDates" },
     { text: "Registration", route: "/registration" },
     { text: "Accommodation", route: "/accommodation" },
-    { text: "Delegates", route: "/delegates" },
+    { text: "Speakers", route: "/speakers" },
     { text: "Sponsors", route: "/sponsors" },
     { text: "Committees", route: "/committees" },
     { text: "Program", route: "/program" },
