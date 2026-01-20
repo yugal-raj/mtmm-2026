@@ -4,6 +4,7 @@ interface DelegateCardProps {
     designation: string, 
     name: string;
     institution: string;
+    website: string;
     photo: string;
     /** Controls face focus: e.g. "50% 25%", "50% 35%" */
     position?: string;
@@ -15,13 +16,20 @@ export default function DelegateCard({
     designation,
     name,
     institution,
+    website,
     photo,
     position = "50% 35%", // default: face slightly higher
     zoom = 1.05,
 }: DelegateCardProps) {
+    const handleClick = () => {
+    if (website) {
+      window.open(website, "_blank", "noopener,noreferrer");
+    }
+  };
   return (
     <div
-      className="bg-white rounded-xl shadow-md hover:shadow-lg transition text-center pt-16 pb-6 px-6"
+        onClick={handleClick}
+        className={`bg-white hover:bg-blue-50 rounded-xl shadow-md hover:shadow-lg transition text-center pt-30 pb-6 px-6 ${website? "cursor-pointer": "cursor-default"}`}
     >
       {/* Portrait */}
       <div className="flex justify-center -mt-20 mb-6">

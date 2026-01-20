@@ -21,6 +21,7 @@ export default function Speakers(){
                         designation={speaker.designation}
                         name={speaker.name}
                         institution={speaker.institution}
+                        website={speaker.website}
                         photo={speaker.photo}
                         position={speaker.position}
                         zoom={speaker.zoom}
