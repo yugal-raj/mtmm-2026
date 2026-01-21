@@ -51,15 +51,15 @@ export const speakers = [
         photo: "/images/speakers/FabricePointillart.jpg",
         zoom: 1
     },
-    {
-        designation: "Prof.",
-        name: "Matteo Atzori",
-        institution: "CNRS-LNCMI, Grenoble, France",
-        website:"https://lncmi.cnrs.fr/en/atzori-matteo/",
-        photo: "/images/speakers/MatteoAtzori.jpg",
-        position: "50% 2px",
-        zoom: 1.2
-    },
+    // {
+    //     designation: "Prof.",
+    //     name: "Matteo Atzori",
+    //     institution: "CNRS-LNCMI, Grenoble, France",
+    //     website:"https://lncmi.cnrs.fr/en/atzori-matteo/",
+    //     photo: "/images/speakers/MatteoAtzori.jpg",
+    //     position: "50% 2px",
+    //     zoom: 1.2
+    // },
     {
         designation: "Prof.",
         name: "Szymon Chorąży",

@@ -2,6 +2,7 @@
 import HomepageSlideShow from "@/components/HomepageComponents/HomepageSlideShow"
 import HomepageAbout from "@/components/HomepageComponents/HomepageAbout"
 import HomepageImportantDates from "@/components/HomepageComponents/HomepageImportantDates"
+import NotificationBar from "@/components/NotificationBar"
 
 export default function Homepage() {
   return (
