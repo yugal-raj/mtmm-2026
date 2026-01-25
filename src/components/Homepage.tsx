@@ -7,9 +7,13 @@ import NotificationBar from "@/components/NotificationBar"
 export default function Homepage() {
   return (
     <section className="relative flex flex-col justify-center">
+      
       <div className="w-full flex items-center justify-center">
         <HomepageSlideShow/>
       </div>
+      {/* <div className="pt-2">
+        <NotificationBar/>
+      </div> */}
       <div className="w-full flex items-center justify-center pt-15">
         <HomepageAbout/>
       </div>
