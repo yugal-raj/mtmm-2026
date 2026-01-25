@@ -1,6 +1,6 @@
 export const speakers = [
     {
-        designation: "Prof.",
+        designation: "",
         name: "Annie K. Powell",
         institution: "Karlsruhe Institute of Technology, Germany",
         website: "https://www.aoc.kit.edu/powell/akpowell.html",
@@ -8,7 +8,7 @@ export const speakers = [
         zoom: 1
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Grace Morgan",
         institution: "University College Dublin, Ireland",
         website: "https://people.ucd.ie/grace.morgan",
@@ -17,7 +17,7 @@ export const speakers = [
         zoom: 0.98
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Masahiro Yamashita",
         institution: "Tohoku University, Japan",
         website:"https://yamashita-group.wixsite.com/yamashita-group",
@@ -26,7 +26,7 @@ export const speakers = [
         zoom: 1
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Javier Campo",
         institution: "Aragón Materials Science Institute, Spain",
         website: "https://m4.unizar.es/team/javier-campo/",
@@ -35,7 +35,7 @@ export const speakers = [
         zoom: 1.8
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Mario Ruben",
         institution: "Karlsruhe Institute of Technology, Germany",
         website: "https://www.int.kit.edu/1938_mario.ruben.php",
@@ -44,7 +44,7 @@ export const speakers = [
         zoom: 1.1
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Fabrice Pointillart",
         institution: "Rennes Institute of Chemical Sciences, France",
         website: "https://iscr.univ-rennes.fr/fabrice-pointillart",
@@ -52,7 +52,7 @@ export const speakers = [
         zoom: 1
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Matteo Atzori",
         institution: "CNRS-LNCMI, Grenoble, France",
         website:"https://lncmi.cnrs.fr/en/atzori-matteo/",
@@ -61,7 +61,7 @@ export const speakers = [
         zoom: 1.2
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Szymon Chorąży",
         institution: "Jagiellonian University, Poland",
         website: "https://amu.pan.pl/en/szymon-chorazy/",
@@ -69,7 +69,7 @@ export const speakers = [
         zoom: 1
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Marius Andruh",
         institution: "University of Bucharest, Romania",
         website: "https://www.researchgate.net/lab/Marius-Andruh-Lab-2",
@@ -78,7 +78,7 @@ export const speakers = [
         zoom: 1.2
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Gopalan Rajaraman",
         institution: "IIT Bombay, India",
         website: "https://www.chem.iitb.ac.in/~rajaraman/team.html",
@@ -87,7 +87,7 @@ export const speakers = [
         zoom: 2
     },
     {
-        designation: "Assoc. Prof.",
+        designation: "",
         name: "Pierre Dechambenoit",
         institution: "University of Bordeaux, France",
         website: "https://m3.crpp.cnrs.fr/dr-pierre-dechambenoit/",
@@ -96,7 +96,7 @@ export const speakers = [
         zoom: 1.2
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Joris van Slageren",
         institution: "University of Stuttgart, Germany",
         website: "https://www.ipc.uni-stuttgart.de/team/Slageren/",
@@ -105,7 +105,7 @@ export const speakers = [
         zoom: 1
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "David Brook",
         institution: "San Jose State University, USA",
         website: "https://www.sjsu.edu/chemistry/about-us/faculty/david-brook.php",
@@ -114,7 +114,7 @@ export const speakers = [
         zoom: 1.2
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Birgit Weber",
         institution: "Friedrich-Schiller-Universität Jena, Germany",
         website: "https://www.chemgeo.uni-jena.de/en/10736/work-group-prof-dr-birgit-weber",
@@ -123,7 +123,7 @@ export const speakers = [
         zoom: 1
     },
     {
-        designation: "Asst. Prof.",
+        designation: "",
         name: "K. R. Vignesh",
         institution: "IISER Mohali, India",
         website: "https://www.iisermohali.ac.in/faculty/dcs/vigneshkuduvar",
@@ -132,7 +132,7 @@ export const speakers = [
         zoom: 1.2
     },
     {
-        designation: "Dr.",
+        designation: "",
         name: "Ludovic Jaubert",
         institution: "University of Bordeaux, France",
         website: "https://www.loma.cnrs.fr/ludovic-jaubert/",
@@ -140,7 +140,7 @@ export const speakers = [
         zoom: 1
     },
     {
-        designation: "Assoc. Prof.",
+        designation: "",
         name: "Soumya Jyoti Ray",
         institution: "IIT Patna, India",
         website: "https://www.iitp.ac.in/people-phy-menu/phy-faculty/935:dr-soumya-jyoti-ray",
@@ -148,7 +148,7 @@ export const speakers = [
         zoom: 1.2
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Sabyashachi Mishra",
         institution: "IIT Kharagpur, India",
         website: "http://www.chemistry.iitkgp.ac.in/professor/mishra",
@@ -157,7 +157,7 @@ export const speakers = [
         zoom: 1.2
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Pradip Kumar Chakraborty",
         institution: "IIT Kharagpur, India",
         website: "http://www.chemistry.iitkgp.ac.in/professor/pradipc",
@@ -166,7 +166,7 @@ export const speakers = [
         zoom: 1.3
     },
     {
-        designation: "Dr.",
+        designation: "",
         name: "Pramod Bhatt",
         institution: "BARC Mumbai, India",
         website: "https://www.researchgate.net/profile/Pramod-Bhatt-3",
@@ -175,7 +175,7 @@ export const speakers = [
         zoom: 1.3
     },
     {
-        designation: "Prof.",
+        designation: "",
         name: "Daniel R. Talham",
         institution: "University of Florida, USA",
         website: "https://talham.chem.ufl.edu/dr-daniel-r-talham/",
@@ -184,7 +184,7 @@ export const speakers = [
         zoom: 1.3
     },
     {
-        designation: "Dr.",
+        designation: "",
         name: "V. Raghavendra Reddy",
         institution: "UGC-DAE CSR, Indore Centre, India",
         website: "https://www.csr.res.in/Faculty/profile/26/26/Dr.V.RaghavendraReddy",
