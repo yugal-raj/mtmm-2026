@@ -230,7 +230,7 @@ export const speakers = [
     },
     {
         designation: "",
-        name: "Hab. Rodolphe Clérac",
+        name: "Rodolphe Clérac",
         institution: "Université de Bordeaux – CNRS, France",
         website: "https://m3.crpp.cnrs.fr/dr-hab-rodolphe-clerac/",
         photo: "/images/speakers/HabRodolpheClérac.jpg",
