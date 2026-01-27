@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "mtmm2026.vercel.app"
+        }
+      ],
+      "destination": "https://mtmm2026.website/$1",
+      "permanent": true
+    }
+  ]
+}
