@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export function generateMetadata({ params, searchParams }: any): Metadata {
-  const baseUrl = "https://mtmm2026.vercel.app";
+  const baseUrl = "https://mtmm2026.website";
   const pathname = typeof window !== "undefined" ? window.location.pathname : "/";
 
   const pageData: Record<string, { title: string; description: string }> = {
