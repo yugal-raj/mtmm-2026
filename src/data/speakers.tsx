@@ -191,5 +191,86 @@ export const speakers = [
         photo: "/images/speakers/VRaghavendraReddy.jpg",
         position: "24% 14px",
         zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Sanjit Konar",
+        institution: "IISER Bhopal, India",
+        website: "https://chm.iiserb.ac.in/faculty_profile/Ng==/c2tvbmFy",
+        photo: "/images/speakers/SK.jpeg",
+        position: "-12px -1px",
+        zoom: 1
+    },
+    {
+        designation: "",
+        name: "Priya Mahadevan",
+        institution: "S. N. Bose National Centre for Basic Sciences, India",
+        website: "https://people.bose.res.in/faculty/fac_new/priyamahadevan.html",
+        photo: "/images/speakers/PriyaMahadevan.jpg",
+        position: "-15px -3px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Sanchita Goswami",
+        institution: "University of Calcutta, India",
+        website: "https://caluniv.irins.org/profile/122105",
+        photo: "/images/speakers/SG.jpeg",
+        position: "-33px -1px",
+        zoom: 1
+    },
+    {
+        designation: "",
+        name: "Peter Comba",
+        institution: "Heidelberg University, Germany",
+        website: "https://www.uni-heidelberg.de/fakultaeten/chemgeo/aci/comba/comba.html",
+        photo: "/images/speakers/peterComba.jpg",
+        position: "24% 14px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Hab. Rodolphe Clérac",
+        institution: "Université de Bordeaux – CNRS, France",
+        website: "https://m3.crpp.cnrs.fr/dr-hab-rodolphe-clerac/",
+        photo: "/images/speakers/HabRodolpheClérac.jpg",
+        position: "-8px 14px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Martin T. Lemaire",
+        institution: "Brock University, Canada",
+        website: "https://brocku.ca/mathematics-science/chemistry/martin-t-lemaire/",
+        photo: "/images/speakers/MartinTLemaire.jpeg",
+        position: "24% 0px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Corine Mathonière",
+        institution: "Université de Bordeaux CNRS, France",
+        website: "https://m3.crpp.cnrs.fr/prof-corine-mathoniere-team-m3/",
+        photo: "/images/speakers/CorineMathonière.jpg",
+        position: "8px 14px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Awadhesh Narayan",
+        institution: "IISc Bangalore, India",
+        website: "https://sites.google.com/site/awadheshnarayan00/academics",
+        photo: "/images/speakers/AwadheshNarayan.png",
+        position: "-12px -2px",
+        zoom: 1.4
+    },
+    {
+        designation: "",
+        name: "Amit Kumar Mondal",
+        institution: "Institute of Nano Science and Technology (INST) Mohali, India",
+        website: "https://inst.ac.in/scientist/34-amit-kumar-mondal",
+        photo: "/images/speakers/AmitKumarMondal.jpg",
+        position: "-15px 20px",
+        zoom: 1.4
     }
 ];
