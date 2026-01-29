@@ -272,5 +272,41 @@ export const speakers = [
         photo: "/images/speakers/AmitKumarMondal.jpg",
         position: "-15px 20px",
         zoom: 1.4
+    },
+    {
+        designation: "",
+        name: "Arup Sarkar",
+        institution: "Trinity College Dublin, Ireland",
+        website: "https://www.tcd.ie/research/profiles/?profile=arsarkar",
+        photo: "/images/speakers/Arup Sarkar.jpg",
+        position: "-22px -5px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Dipankar Mandal",
+        institution: "INST Mohali, India",
+        website: "https://inst.ac.in/scientist/39-dipankar-mandal",
+        photo: "/images/speakers/Dipankar Mandal.jpg",
+        position: "-4px 8px",
+        zoom: 1.1
+    },
+    {
+        designation: "",
+        name: "Anirban Misra",
+        institution: "University of North Bengal, India",
+        website: "https://www.researchgate.net/profile/Anirban-Misra-4",
+        photo: "/images/speakers/Anirban Misra.jpg",
+        position: "0px 10px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Andrea Cornia",
+        institution: "University of Modena and Reggio Emilia, Italy",
+        website: "https://www.researchgate.net/lab/Andrea-Cornia-Lab",
+        photo: "/images/speakers/Andrea Cornia.jpg",
+        position: "-12px 4px",
+        zoom: 1.05
     }
 ];
