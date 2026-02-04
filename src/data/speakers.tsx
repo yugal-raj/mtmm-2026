@@ -308,5 +308,50 @@ export const speakers = [
         photo: "/images/speakers/Andrea Cornia.jpg",
         position: "-12px 4px",
         zoom: 1.05
+    },
+    {
+        designation: "",
+        name: "Rodrigue Lescouëzec",
+        institution: "Sorbonne Université, France",
+        website: "https://www.lescouezec.com/",
+        photo: "/images/speakers/Rodrigue Lescouezec.jpg",
+        position: "-16px 13px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Saurabh Kumar Singh",
+        institution: "IIT Hyderabad, India",
+        website: "https://www.iith.ac.in/chy/sksingh/",
+        photo: "/images/speakers/saurabh kumar singh.png",
+        position: "-19px 14px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Biprajit Sarkar",
+        institution: "Free University, Germany",
+        website: "https://www.bcp.fu-berlin.de/en/chemie/chemie/forschung/InorgChem/agsarkar/index.html",
+        photo: "/images/speakers/Biprajit Sarkar.jpg",
+        position: "-94px 1px",
+        zoom: 1.1
+    },
+    {
+        designation: "",
+        name: "Sandeep Kumar Gupta",
+        institution: "IIT Delhi, India",
+        website: "https://chemistry.iitd.ac.in/faculty-profile/41",
+        photo: "/images/speakers/_Sandeep Gupta_.jpeg",
+        position: "-7px 14px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Virginie Béreau",
+        institution: "LCC CNRS Toulouse, France",
+        website: "https://www.lcc-toulouse.fr/virginie-bereau/",
+        photo: "/images/speakers/Virginie Bereau.jpg",
+        position: "1px 14px",
+        zoom: 1.2
     }
 ];
