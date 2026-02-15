@@ -353,5 +353,95 @@ export const speakers = [
         photo: "/images/speakers/Virginie Bereau.jpg",
         position: "1px 14px",
         zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Masanori Wakizaka",
+        institution: "Chitose Institute of Science and Technology, Japan",
+        website: "https://www.chitose.ac.jp/english/teacher/12",
+        photo: "/images/speakers/Masanori wakizaka.jpg",
+        position: "3px 49px",
+        zoom: 2.4
+    },
+    {
+        designation: "",
+        name: "Talal Mallah",
+        institution: "Paris-Saclay University, France",
+        website: "https://www.researchgate.net/lab/Talal-Mallah-Lab",
+        photo: "/images/speakers/tallal mallah.jpg",
+        position: "-16px 0px",
+        zoom: 1
+    },
+    {
+        designation: "",
+        name: "Ramaswamy Murugavel",
+        institution: "IIT Bombay, India",
+        website: "https://www.chem.iitb.ac.in/facultyuserview/r-murugavel",
+        photo: "/images/speakers/R Murugavel.jpg",
+        position: "1px 14px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Vadapalli Chandrasekhar",
+        institution: "TIFR Hyderabad, India",
+        website: "https://www.tifrh.res.in/~vc/",
+        photo: "/images/speakers/vc.jpg",
+        position: "-4px 40px",
+        zoom: 2.6
+    },
+    {
+        designation: "",
+        name: "Swapan Kumar Pati",
+        institution: "JNCASR, India",
+        website: "https://jncasr.irins.org/profile/200753",
+        photo: "/images/speakers/Swapan K Pati.jpg",
+        position: "1px -13px",
+        zoom: 1.1
+    },
+    {
+        designation: "",
+        name: "Federico Totti",
+        institution: "University of Florence, Italy",
+        website: "https://www.researchgate.net/profile/Federico-Totti",
+        photo: "/images/speakers/Federico Totti.png",
+        position: "1px -12px",
+        zoom: 1
+    },
+    {
+        designation: "",
+        name: "Lorenzo Sorace",
+        institution: "University of Florence, Italy",
+        website: "https://www.researchgate.net/profile/Lorenzo-Sorace",
+        photo: "/images/speakers/lorenzo-sorace.jpg",
+        position: "-26px 2px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Abhishake Mondal",
+        institution: "IISc Bangalore, India",
+        website: "https://sscu.iisc.ac.in/mondal/",
+        photo: "/images/speakers/AM.jpg",
+        position: "1px 6px",
+        zoom: 2
+    },
+    {
+        designation: "",
+        name: "Md. Ehesan Ali",
+        institution: "INST Mohali, India",
+        website: "https://www.inst.ac.in/scientist/38-ehesan-ali-head-of-unit",
+        photo: "/images/speakers/Ehesan Ali.jpg",
+        position: "-25px 6px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Pritam Mukhopadhyay",
+        institution: "Jawaharlal Nehru University, India",
+        website: "https://www.jnu.ac.in/content/m_pritam",
+        photo: "/images/speakers/Pritam mukhopadhyay.jpg",
+        position: "-11px 14px",
+        zoom: 1.2
     }
 ];
