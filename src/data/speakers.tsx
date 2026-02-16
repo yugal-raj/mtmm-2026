@@ -395,7 +395,7 @@ export const speakers = [
         name: "Swapan Kumar Pati",
         institution: "JNCASR, India",
         website: "https://jncasr.irins.org/profile/200753",
-        photo: "/images/speakers/Swapan K Pati.jpg",
+        photo: "/images/speakers/Swapan k Pati.jpg",
         position: "1px -13px",
         zoom: 1.1
     },
