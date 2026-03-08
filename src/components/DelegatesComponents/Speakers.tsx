@@ -1,9 +1,31 @@
+"use client";
+import { useEffect, useState } from "react";
+import { ArrowUp } from "lucide-react";
 import DelegateCard from "@/components/DelegatesComponents/DelegateCard";
 import { speakers } from "@/data/speakers";
 export default function Speakers(){
+    const [showButton, setShowButton] = useState(false);
     const sortedSpeakers = [...speakers].sort((a, b) =>
         a.name.localeCompare(b.name)
     );
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 300) {
+                setShowButton(true);
+            } else {
+                setShowButton(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
     return (
         <div className="w-[80vw]"
             style={{
@@ -28,6 +50,20 @@ export default function Speakers(){
                       />
                     ))}
             </div>
+            {/* Back to Top Button */}
+            {showButton && (
+                <button
+                onClick={scrollToTop}
+                className={`fixed bottom-8 right-8 flex items-center justify-center 
+                border-2 border-[#71a6f0] text-[#71a6f0] rounded-full shadow-lg bg-white
+                hover:bg-[#71a6f0] hover:text-white hover:-translate-y-1
+                transition-all duration-300 cursor-pointer
+                ${showButton ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+                style={{ fontSize: "30px", width: "65px", height: "65px" }}
+                >
+                <ArrowUp size={28} />
+                </button>
+            )}
         </div>
     )
 }

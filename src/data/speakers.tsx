@@ -443,5 +443,77 @@ export const speakers = [
         photo: "/images/speakers/Pritam mukhopadhyay.jpg",
         position: "-11px 14px",
         zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Nathalie Guihery",
+        institution: "University of Toulouse, France",
+        website: "https://www.lcpq.ups-tlse.fr/spip.php?rubrique420&amp;lang=fr",
+        photo: "/images/speakers/Nathalie guihery.jpg",
+        position: "1px -7px",
+        zoom: 1
+    },
+    {
+        designation: "",
+        name: "Shinya Hayami",
+        institution: "Kumamoto University, Japan",
+        website: "https://www.fast.kumamoto-u.ac.jp/IRCAEB/EN/hayami.html",
+        photo: "/images/speakers/Shinya hayami.jpg",
+        position: "0px 14px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Pratap Vishnoi",
+        institution: "JNCASR Bangalore, India",
+        website: "https://www.jncasr.ac.in/faculty/pvishnoi",
+        photo: "/images/speakers/Pratap Vishnoi.jpeg",
+        position: "-11px 14px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Yoshihiro Sekine",
+        institution: "Kumamoto University, Japan",
+        website: "https://www.fast.kumamoto-u.ac.jp/IRCAEB/EN/sekine.html",
+        photo: "/images/speakers/Yoshihiro Sekine.jpg",
+        position: "1px -6px",
+        zoom: 1.1
+    },
+    {
+        designation: "",
+        name: "Kevin Bernot",
+        institution: "Rennes Institute of Chemical Sciences, France",
+        website: "https://iscr.univ-rennes.fr/fr/kevin-bernot",
+        photo: "/images/speakers/Kevin bernot.jpg",
+        position: "2px -4px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Rajamani Raghunathan",
+        institution: "UGC-DAE CSR Indore, India",
+        website: "https://www.csr.res.in/Faculty/profile/60/64/Dr.RajamaniRaghunatha",
+        photo: "/images/speakers/Rajamani Raghunathan.jpg",
+        position: "-11px 15px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Manoranjan Kumar",
+        institution: "SNBNCBS Kolkata, India",
+        website: "https://bose.res.in/faculty/fac_new/manoranjan.html",
+        photo: "/images/speakers/manoranjan Kumar.png",
+        position: "-15px -3px",
+        zoom: 1.1
+    },
+    {
+        designation: "",
+        name: "Maheswaran Shanmugam",
+        institution: "IIT Bombay, India",
+        website: "https://www.chem.iitb.ac.in/facultyuserview/maheswaran-shanmugam",
+        photo: "/images/speakers/Maheswaran Shanmugam.avif",
+        position: "-4px 41px",
+        zoom: 2.2
     }
 ];
