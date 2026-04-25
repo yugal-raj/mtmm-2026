@@ -530,7 +530,7 @@ export const speakers = [
         name: "John F. Berry",
         institution: "University of Wisconsin-Madison, USA",
         website: "https://chem.wisc.edu/staff/berry-john-f",
-        photo: "/images/speakers/John F Berry.jpg",
+        photo: "/images/speakers/JohnFBerry.jpg",
         position: "-4px 6px",
         zoom: 1.4
     },
