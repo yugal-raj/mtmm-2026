@@ -515,5 +515,59 @@ export const speakers = [
         photo: "/images/speakers/Maheswaran Shanmugam.avif",
         position: "-4px 41px",
         zoom: 2.2
+    },
+    {
+        designation: "",
+        name: "Viswanathan Baskar",
+        institution: "University of Hyderabad, India",
+        website: "http://chemistry.uohyd.ac.in/vb.htm",
+        photo: "/images/speakers/Viswanathan baskar1.jpg",
+        position: "-15px 26px",
+        zoom: 1.5
+    },
+    {
+        designation: "",
+        name: "John F. Berry",
+        institution: "University of Wisconsin-Madison, USA",
+        website: "https://chem.wisc.edu/staff/berry-john-f",
+        photo: "/images/speakers/John F Berry.jpg",
+        position: "-4px 6px",
+        zoom: 1.4
+    },
+    {
+        designation: "",
+        name: "Shouvik Chatterjee",
+        institution: "Tata Institute of Fundamental Research, India",
+        website: "https://www.tifr.res.in/dcmpms/shouvik_chatterjee.php",
+        photo: "/images/speakers/Shouvik Chatterjee.jpeg",
+        position: "-12px 8px",
+        zoom: 1.3
+    },
+    {
+        designation: "",
+        name: "Bhavtosh Bansal",
+        institution: "IISER Kolkata, India",
+        website: "https://www.iiserkol.ac.in/~bhavtosh",
+        photo: "/images/speakers/Bhavtosh bansal.jpg",
+        position: "-4px -5px",
+        zoom: 1.3
+    },
+    {
+        designation: "",
+        name: "Suranjan Shil",
+        institution: "Manipal Centre for Natural Sciences, MAHE, India",
+        website: "https://www.manipal.edu/mcns-manipal/department-faculty/faculty-list/suranjan-shil.html",
+        photo: "/images/speakers/Suranjan Shil.jpg",
+        position: "-20px -8px",
+        zoom: 1.2
+    },
+    {
+        designation: "",
+        name: "Chinmoy Das",
+        institution: "SRM University-AP, India",
+        website: "https://www.srmap.edu.in/faculty/dr-chinmoy-das",
+        photo: "/images/speakers/chinmoy-das.jpg",
+        position: "-19px 22px",
+        zoom: 2.0
     }
 ];
