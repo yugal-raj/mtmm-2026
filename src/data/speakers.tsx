@@ -45,23 +45,6 @@ export const speakers = [
     },
     {
         designation: "",
-        name: "Fabrice Pointillart",
-        institution: "Rennes Institute of Chemical Sciences, France",
-        website: "https://iscr.univ-rennes.fr/fabrice-pointillart",
-        photo: "/images/speakers/FabricePointillart.jpg",
-        zoom: 1
-    },
-    {
-        designation: "",
-        name: "Matteo Atzori",
-        institution: "CNRS-LNCMI, Grenoble, France",
-        website:"https://lncmi.cnrs.fr/en/atzori-matteo/",
-        photo: "/images/speakers/MatteoAtzori.jpg",
-        position: "50% 2px",
-        zoom: 1.2
-    },
-    {
-        designation: "",
         name: "Szymon Chorąży",
         institution: "Jagiellonian University, Poland",
         website: "https://amu.pan.pl/en/szymon-chorazy/",
@@ -239,30 +222,12 @@ export const speakers = [
     },
     {
         designation: "",
-        name: "Martin T. Lemaire",
-        institution: "Brock University, Canada",
-        website: "https://brocku.ca/mathematics-science/chemistry/martin-t-lemaire/",
-        photo: "/images/speakers/MartinTLemaire.jpeg",
-        position: "24% 0px",
-        zoom: 1.2
-    },
-    {
-        designation: "",
         name: "Corine Mathonière",
         institution: "Université de Bordeaux CNRS, France",
         website: "https://m3.crpp.cnrs.fr/prof-corine-mathoniere-team-m3/",
         photo: "/images/speakers/CorineMathonière.jpg",
         position: "8px 14px",
         zoom: 1.2
-    },
-    {
-        designation: "",
-        name: "Awadhesh Narayan",
-        institution: "IISc Bangalore, India",
-        website: "https://sites.google.com/site/awadheshnarayan00/academics",
-        photo: "/images/speakers/AwadheshNarayan.png",
-        position: "-12px -2px",
-        zoom: 1.4
     },
     {
         designation: "",
@@ -347,15 +312,6 @@ export const speakers = [
     },
     {
         designation: "",
-        name: "Virginie Béreau",
-        institution: "LCC CNRS Toulouse, France",
-        website: "https://www.lcc-toulouse.fr/virginie-bereau/",
-        photo: "/images/speakers/Virginie Bereau.jpg",
-        position: "1px 14px",
-        zoom: 1.2
-    },
-    {
-        designation: "",
         name: "Masanori Wakizaka",
         institution: "Chitose Institute of Science and Technology, Japan",
         website: "https://www.chitose.ac.jp/english/teacher/12",
@@ -380,15 +336,6 @@ export const speakers = [
         photo: "/images/speakers/R Murugavel.jpg",
         position: "1px 14px",
         zoom: 1.2
-    },
-    {
-        designation: "",
-        name: "Vadapalli Chandrasekhar",
-        institution: "TIFR Hyderabad, India",
-        website: "https://www.tifrh.res.in/~vc/",
-        photo: "/images/speakers/vc.jpg",
-        position: "-4px 40px",
-        zoom: 2.6
     },
     {
         designation: "",
@@ -482,15 +429,6 @@ export const speakers = [
     },
     {
         designation: "",
-        name: "Kevin Bernot",
-        institution: "Rennes Institute of Chemical Sciences, France",
-        website: "https://iscr.univ-rennes.fr/fr/kevin-bernot",
-        photo: "/images/speakers/Kevin bernot.jpg",
-        position: "2px -4px",
-        zoom: 1.2
-    },
-    {
-        designation: "",
         name: "Rajamani Raghunathan",
         institution: "UGC-DAE CSR Indore, India",
         website: "https://www.csr.res.in/Faculty/profile/60/64/Dr.RajamaniRaghunatha",
@@ -515,15 +453,6 @@ export const speakers = [
         photo: "/images/speakers/Maheswaran Shanmugam.avif",
         position: "-4px 41px",
         zoom: 2.2
-    },
-    {
-        designation: "",
-        name: "Viswanathan Baskar",
-        institution: "University of Hyderabad, India",
-        website: "http://chemistry.uohyd.ac.in/vb.htm",
-        photo: "/images/speakers/Viswanathan baskar1.jpg",
-        position: "-15px 26px",
-        zoom: 1.5
     },
     {
         designation: "",
@@ -569,5 +498,56 @@ export const speakers = [
         photo: "/images/speakers/chinmoy-das.jpg",
         position: "-19px 22px",
         zoom: 2.0
+    },
+    {
+        designation: "",
+        name: "Arun Kumar Bar",
+        institution: "IISER Tirupati, India",
+        website: "https://www.iisertirupati.ac.in/single-molecular-nanomagnets-arun-kumar-bar/",
+        photo: "/images/speakers/ArunKumarBar.jpg",
+        zoom: 1
+    },
+    {
+        designation: "",
+        name: "José J. Baldoví",
+        institution: "University of Valencia, Spain",
+        website: "https://www.uv.es/uvweb/college/en/profile-1285950309813.html?p2=jojaibal@uv.es&idA=",
+        photo: "/images/speakers/JoseJBaldovi.png",
+        position: "50% 20px",
+        zoom: 1.3
+    },
+    {
+        designation: "",
+        name: "Mahesh Sundararajan",
+        institution: "BARC Mumbai, India",
+        website: "https://www.researchgate.net/profile/Mahesh-Sundararajan/5",
+        photo: "/images/speakers/MaheshSundararajan.jpg",
+        position: "50% 11px",
+        zoom: 1.3
+    },
+    {
+        designation: "",
+        name: "Peter Weinberger",
+        institution: "TU Wien, Austria",
+        website: "https://www.tuwien.at/en/tch/tch-persons-and-groups/habilitation-holders/peter-weinberger",
+        photo: "/images/speakers/PeterWeinberger.jpg",
+        position: "50% 25px",
+        zoom: 1.5
+    },
+    {
+        designation: "",
+        name: "Sriram Sundaresan",
+        institution: "FZU Institute of Physics of the Czech Academy of Sciences, Czechia",
+        website: "https://www.fzu.cz/en/news/sriram-sundaresan-joining-fzu",
+        photo: "/images/speakers/SriramSundaresan.webp",
+        zoom: 1
+    },
+    {
+        designation: "",
+        name: "S. Ramasesha",
+        institution: "IISc Bangalore, India",
+        website: "https://sscu.iisc.ac.in/ramasesha/",
+        photo: "/images/speakers/SRamasesha.jpg",
+        zoom: 1
     }
 ];
