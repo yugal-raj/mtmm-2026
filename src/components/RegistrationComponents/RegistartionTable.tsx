@@ -103,7 +103,7 @@ export default function RegistrationTable() {
                         <tr key={item.label} className="hover:bg-gray-50">
                         <th
                             scope="row"
-                            className="px-6 py-4 text-left text-sm font-semibold text-gray-700 w-1/2"
+                            className="px-6 py-4 text-left text-sm font-semibold text-gray-700 w-px sm:whitespace-nowrap"
                             style={{backgroundColor: "#b5dcff"}}
                         >
                             {item.label}
