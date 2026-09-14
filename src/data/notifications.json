@@ -1,9 +1,19 @@
 {
-  "speed": 25,
+  "speed": 32,
   "messages": [
-    "📢 Early-bird registration closes on 15 March 2026",
-    "📅 Abstract submission deadline: 10 April 2026",
-    "🏨 Limited accommodation slots available",
-    "🧲 MTMM 2026 | December 2026 | Tezpur University"
+    {
+      "icon": "📢",
+      "text": "Registration and Abstract Submission for MTMM 2026 is now open.",
+      "link": "/registration",
+      "linkText": "(Click here for Registration & Abstract Submission)"
+    },
+    {
+      "icon": "🏆",
+      "text": "RSC-Sponsored Student Awards: Best Oral Presentation and Best Poster Presentation awards to outstanding student participants of MTMM 2026, sponsored by the Royal Society of Chemistry (RSC)"
+    },
+    {
+      "icon": "🦏",
+      "text": "Join the Excursion to Kaziranga National Park on 6th December 2026 for participants of MTMM 2026"
+    }
   ]
 }

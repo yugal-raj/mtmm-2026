@@ -49,11 +49,24 @@ html {
   width: 100%;
   height: 50px;
   overflow: hidden;
-  background: #016270;
-  color: #ffffff;
+  /* WHY: Soft pale blue with dark navy text matches the header/nav palette and is easier on the eyes than the old dark teal */
+  background: #eaf3fc;
+  color: #1f3b57;
   padding: 8px 0;
   font-size: 14px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid #c9ddf2;
+  border-bottom: 1px solid #c9ddf2;
+}
+
+.notification-link {
+  font-weight: 600;
+  color: #8a3b3b;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.notification-link:hover {
+  color: #5e2424;
 }
 
 .notification-track {
@@ -64,13 +77,25 @@ html {
   animation-iteration-count: infinite;
 }
 
+/* WHY: No padding here — spacing comes only from .notification-separator so every gap between messages is identical */
 .notification-track span {
   white-space: nowrap;
-  padding-right: 3rem;
 }
 
-.notification-wrapper:hover .notification-track {
+.notification-separator {
+  padding: 0 2.5rem;
+  opacity: 0.7;
+}
+
+.notification-wrapper:hover .notification-track,
+.notification-wrapper:focus-within .notification-track {
   animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .notification-track {
+    animation-duration: 120s !important;
+  }
 }
 
 @keyframes scroll-left {

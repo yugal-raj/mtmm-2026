@@ -45,10 +45,11 @@ export default function Navbar() {
     <section>
         {isDesktopHeader ? <HeaderLogo /> : <HeaderLogoMobile />}
     <nav className="bg-[#82b9e7]">
-      {isDesktop && <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-center">
-        
+      {isDesktop && <div className="max-w-7xl mx-auto px-4 xl:px-6 py-5 flex items-center justify-center">
+
         {/* Desktop Menu */}
-        <div className="flex gap-8">
+        {/* WHY: 18px links need tighter spacing (gap-x-4, px-4) below 1280px so all 10 fit on one row at the 1020px breakpoint; flex-wrap is a safety net against overflow */}
+        <div className="flex flex-wrap justify-center gap-x-4 xl:gap-x-6 gap-y-2">
           {navBarArray.map((nav) => {
             const isActive = pathName === nav.route;
             return (<Link
@@ -56,7 +57,7 @@ export default function Navbar() {
               href={nav.route}
               prefetch
               onMouseEnter={() => router.prefetch(nav.route)}
-              className={`text-[16px] font-medium transition ${isActive? "text-[#1e2ac0]" : "text-[#1e2ac0] hover:text-white"}`}
+              className={`text-[18px] font-medium transition ${isActive? "text-[#1e2ac0]" : "text-[#1e2ac0] hover:text-white"}`}
               style={{
                  textDecoration: isActive ? "underline" : "none"
                 }}
@@ -89,7 +90,7 @@ export default function Navbar() {
               key={nav.text}
               href={nav.route}
               onClick={() => setOpen(false)}
-              className={`text-[16px] font-medium ${isActive? "text-[#1e2ac0]" : "text-[#1e2ac0] hover:text-white"}`}
+              className={`text-[18px] font-medium ${isActive? "text-[#1e2ac0]" : "text-[#1e2ac0] hover:text-white"}`}
               style={{
                  textDecoration: isActive ? "underline" : "none"
                 }}

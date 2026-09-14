@@ -4,10 +4,10 @@ export default function HomepageImporatantDates() {
     const pathName = usePathname();
     const isImportantDates = pathName === "/importantDates";
     const scheduleData = [
-        { activity: "Abstract submission starts", date: "October 10, 2026" },
-        { activity: "Registration opens", date: "October 10, 2026" },
+        { activity: "Abstract submission starts", date: "September 14, 2026" },
+        { activity: "Registration opens", date: "September 14, 2026" },
         { activity: "Abstract submission closes", date: "November 01, 2026" },
-        { activity: "Registration closes", date: "November 05, 2026" },
+        { activity: "Registration closes", date: "November 01, 2026" },
     ];
 
     return (
