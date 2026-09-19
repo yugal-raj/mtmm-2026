@@ -18,6 +18,7 @@ export default function RegistrationTable() {
         { label: "Account Number", value: "10501585452" },
         { label: "Bank Name", value: "STATE BANK OF INDIA" },
         { label: "IFSC Code", value: "SBIN0014259" },
+        { label: "SWIFT Code", value: "SBININBB159" },
         { label: "PAN Number", value: "AAAJT2654F" }
     ];
 
