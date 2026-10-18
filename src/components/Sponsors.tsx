@@ -27,9 +27,9 @@ const sponsors = [
   {
     name: "Labindia Analytical",
     logo: "/images/sponsors/labindia-logo.png",
-    website: "https://www.labindia.com",
-    width: 300,
-    height: 300,
+    website: "https://labindia-analytical.com/",
+    width: 759,
+    height: 216,
   },
 ];
 
