@@ -17,6 +17,20 @@ const sponsors = [
     width: 935,
     height: 305,
   },
+  {
+    name: "Quantum Design India",
+    logo: "/images/sponsors/quantum-design-logo.png",
+    website: "https://qd-india.com",
+    width: 800,
+    height: 185,
+  },
+  {
+    name: "Labindia Analytical",
+    logo: "/images/sponsors/labindia-logo.png",
+    website: "https://www.labindia.com",
+    width: 300,
+    height: 300,
+  },
 ];
 
 export default function Sponsors() {

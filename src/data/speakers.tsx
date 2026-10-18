@@ -150,15 +150,6 @@ export const speakers = [
     },
     {
         designation: "",
-        name: "Pramod Bhatt",
-        institution: "BARC Mumbai, India",
-        website: "https://www.researchgate.net/profile/Pramod-Bhatt-3",
-        photo: "/images/speakers/PramodBhatt.jpg",
-        position: "50% 17px",
-        zoom: 1.3
-    },
-    {
-        designation: "",
         name: "Daniel R. Talham",
         institution: "University of Florida, USA",
         website: "https://talham.chem.ufl.edu/dr-daniel-r-talham/",
@@ -174,15 +165,6 @@ export const speakers = [
         photo: "/images/speakers/VRaghavendraReddy.jpg",
         position: "24% 14px",
         zoom: 1.2
-    },
-    {
-        designation: "",
-        name: "Sanjit Konar",
-        institution: "IISER Bhopal, India",
-        website: "https://chm.iiserb.ac.in/faculty_profile/Ng==/c2tvbmFy",
-        photo: "/images/speakers/SK.jpeg",
-        position: "-12px -1px",
-        zoom: 1
     },
     {
         designation: "",
@@ -548,6 +530,15 @@ export const speakers = [
         institution: "IISc Bangalore, India",
         website: "https://sscu.iisc.ac.in/ramasesha/",
         photo: "/images/speakers/SRamasesha.jpg",
+        zoom: 1
+    },
+    {
+        designation: "",
+        name: "Vasudeva Siruguri",
+        institution: "Pillai University, India",
+        website: "https://scholar.google.com/citations?user=N0EVk3AAAAAJ&hl=en",
+        photo: "/images/speakers/VasudevaSiruguri.jpg",
+        position: "50% 20%",
         zoom: 1
     }
 ];

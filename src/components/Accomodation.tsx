@@ -111,7 +111,7 @@ export default function Accomodation() {
             <p className="pt-2 text-justify">
                 Limited free accommodation is available for student participants in Tezpur University
                 hostels and guest house. These will be provided on a first come, first serve basis
-                (kindly write to <a href="mailto:mtmm26@gmail.com" style={linkStyle}>mtmm26@gmail.com</a>).
+                (kindly write to <a href="mailto:mtmm2026@gmail.com" style={linkStyle}>mtmm2026@gmail.com</a>).
             </p>
             <p className="pt-4 text-justify">
                 Interested participants may avail accommodation facility in the following homestay
