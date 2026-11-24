@@ -34,7 +34,7 @@ export default function Footer() {
 
                 {/* Contact */}
                 <div>
-                    <h2 className="text-sm font-bold uppercase tracking-wider text-white">Contact</h2>
+                    <h2 className="text-lg font-bold uppercase tracking-wider text-white">Contact</h2>
                     <ul className="mt-4 space-y-3">
                         <li className="flex items-start gap-2.5">
                             <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#82b9e7]" aria-hidden="true" />
@@ -53,7 +53,7 @@ export default function Footer() {
 
                 {/* Quick links */}
                 <nav aria-label="Footer">
-                    <h2 className="text-sm font-bold uppercase tracking-wider text-white">Quick links</h2>
+                    <h2 className="text-lg font-bold uppercase tracking-wider text-white">Quick links</h2>
                     <ul className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2.5 md:grid-cols-1">
                         {quickLinks.map((link) => (
                             <li key={link.href}>
