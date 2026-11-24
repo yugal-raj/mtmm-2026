@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-export function generateMetadata({ params, searchParams }: any): Metadata {
+export function generateMetadata(): Metadata {
   const baseUrl = "https://mtmm2026.website";
   const pathname = typeof window !== "undefined" ? window.location.pathname : "/";
 

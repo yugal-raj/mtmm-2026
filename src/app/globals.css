@@ -38,6 +38,14 @@ html, body {
   min-height: 100%;
 }
 
+/* WHY: body uses `clip` (not `hidden`) — `hidden` turns body into a scroll container, which silently breaks
+   `position: sticky` on the navbar. `clip` still prevents horizontal scroll. html keeps `hidden` because the
+   browser applies html's overflow to the viewport itself, which does not affect sticky. */
+body {
+  overflow-x: clip;
+  overflow-y: visible;
+}
+
 /* Optional: smooth scrolling */
 html {
   scroll-behavior: smooth;

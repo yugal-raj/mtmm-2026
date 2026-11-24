@@ -46,10 +46,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white overflow-x-hidden overflow-y-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white overflow-x-clip`}
       >
         <Navbar />
-        <main className="overflow-y-auto">
+        {/* WHY: flow-root (not overflow-y-auto) — overflow made <main> a scroll container, which breaks position: sticky inside pages */}
+        <main className="flow-root">
           {children}
         </main>
         <Footer/>

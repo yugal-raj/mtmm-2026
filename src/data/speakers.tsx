@@ -188,15 +188,6 @@ export const speakers = [
     },
     {
         designation: "",
-        name: "Andrea Cornia",
-        institution: "University of Modena and Reggio Emilia, Italy",
-        website: "https://www.researchgate.net/lab/Andrea-Cornia-Lab",
-        photo: "/images/speakers/Andrea Cornia.jpg",
-        position: "-12px 4px",
-        zoom: 1.05
-    },
-    {
-        designation: "",
         name: "Rodrigue Lescouëzec",
         institution: "Sorbonne Université, France",
         website: "https://www.lescouezec.com/",
@@ -368,15 +359,6 @@ export const speakers = [
     },
     {
         designation: "",
-        name: "Suranjan Shil",
-        institution: "Manipal Centre for Natural Sciences, MAHE, India",
-        website: "https://www.manipal.edu/mcns-manipal/department-faculty/faculty-list/suranjan-shil.html",
-        photo: "/images/speakers/Suranjan Shil.jpg",
-        position: "-20px -8px",
-        zoom: 1.2
-    },
-    {
-        designation: "",
         name: "Chinmoy Das",
         institution: "SRM University-AP, India",
         website: "https://www.srmap.edu.in/faculty/dr-chinmoy-das",
@@ -426,5 +408,23 @@ export const speakers = [
         website: "https://www.dibru.ac.in/user-profile/prashurya-pritam-mudoi",
         photo: "/images/speakers/PrashuryaPritamMudoi.jpg",
         zoom: 1
+    },
+    {
+        designation: "",
+        name: "Pragati Pandey",
+        institution: "IIT Jodhpur, India",
+        website: "https://iitj.ac.in/people/profile/9d3ba817-6299-455f-8db6-a1b2fbd3ae0d",
+        photo: "/images/speakers/PragatiPandey.jpg",
+        position: "50% 14px",
+        zoom: 1.3
+    },
+    {
+        designation: "",
+        name: "Mahesh Sundararajan",
+        institution: "BARC Mumbai, India",
+        website: "https://www.researchgate.net/profile/Mahesh-Sundararajan",
+        photo: "/images/speakers/MaheshSundararajan.jpg",
+        position: "30% 20px",
+        zoom: 1.7
     }
 ];

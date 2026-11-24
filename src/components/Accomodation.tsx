@@ -2,7 +2,8 @@ import AboutCollageHeader from "./CollageHeader"
 
 type Contact = { label: string; tel: string };
 
-const linkStyle = { color: "#3737ff" };
+// WHY: Site brand blue (same as headings) instead of the browser-default-looking #3737ff
+const linkStyle = { color: "#2364b7" };
 
 const hotelData: { name: string; website?: string; contacts: Contact[] }[] = [
     { name: "The Greenwood Hotel, Tezpur", website: "https://www.thegreenwoodhotels.com", contacts: [] },

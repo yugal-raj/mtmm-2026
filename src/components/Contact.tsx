@@ -1,4 +1,3 @@
-import ContactMap from "./ContactComponents/ContactMap";
 import AboutCollageHeader from "./CollageHeader";
 import ContactAddress from "./ContactComponents/ContactAddress";
 import ContactVenue from "./ContactComponents/Venue";
@@ -19,9 +18,6 @@ export default function Contact(){
               </div>
               <div className="w-full flex items-center justify-center pt-15">
                 <HowToReach/>
-              </div>
-              <div className="w-full flex items-center justify-center pt-15">
-                <ContactMap/>
               </div>
               <div className="w-full flex items-center justify-center pt-15">
                 <DepartmentMap/>

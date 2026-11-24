@@ -2,6 +2,12 @@
   "speed": 32,
   "messages": [
     {
+      "icon": "🗓️",
+      "text": "The Programme Schedule of MTMM 2026 (2–5 December 2026) is now available.",
+      "link": "/program",
+      "linkText": "View programme"
+    },
+    {
       "icon": "📢",
       "text": "Registration for MTMM 2026 is closed."
     },

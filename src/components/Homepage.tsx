@@ -1,5 +1,5 @@
 "use client";
-import HomepageSlideShow from "@/components/HomepageComponents/HomepageSlideShow"
+import HomepageHero from "@/components/HomepageComponents/HomepageHero"
 import HomepageAbout from "@/components/HomepageComponents/HomepageAbout"
 import HomepageImportantDates from "@/components/HomepageComponents/HomepageImportantDates"
 import NotificationBar from "@/components/NotificationBar"
@@ -11,8 +11,8 @@ export default function Homepage() {
       <div className="w-full pb-1">
         <NotificationBar/>
       </div>
-      <div className="w-full flex items-center justify-center">
-        <HomepageSlideShow/>
+      <div className="w-full flex items-center justify-center pt-4">
+        <HomepageHero/>
       </div>
       <div className="w-full flex items-center justify-center pt-15">
         <HomepageAbout/>
