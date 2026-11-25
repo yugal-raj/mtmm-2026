@@ -29,7 +29,9 @@ export default function ImageStrip() {
               alt={`strip-${idx}`}
               fill
               className="object-cover rounded-lg pointer-events-none"
-              sizes="(max-width: 768px) 90vw, 17vw"
+              // WHY: Each tile is 17vw wide (capped at 245px) at every screen size. The old "90vw on phones" value made
+              // phones download five ~1080px photos (~390 KB) for ~66px-wide tiles
+              sizes="(min-width: 1441px) 245px, 17vw"
               priority={idx === 1} // Only rhino.png gets priority
             />
           </div>

@@ -92,7 +92,7 @@ export const program: ProgramDay[] = [
         name: "Session VI",
         items: [
           { kind: "talk", time: "16:45–17:15", speaker: "Prof. Grace G. Morgan", affiliation: "University College Dublin, Ireland", title: "Spin State Switching in Crystals and Soft Matter" },
-          { kind: "short", time: "17:15–17:35", speaker: "Prof. Vasudeva Siruguri", affiliation: "UGC-DAE CSR, Mumbai", title: "Neutron scattering: a powerful technique to probe magnetic materials" },
+          { kind: "short", time: "17:15–17:35", speaker: "Prof. Vasudeva Siruguri", affiliation: "Pillai University, India", title: "Neutron scattering: a powerful technique to probe magnetic materials" },
           { kind: "event", time: "18:30–20:00", label: "Cultural Programme", note: "Kalaguru Bishnu Prasad Rabha Auditorium" },
           dinner,
         ],

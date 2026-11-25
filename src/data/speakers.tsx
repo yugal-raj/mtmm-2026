@@ -171,7 +171,7 @@ export const speakers = [
     {
         designation: "",
         name: "Arup Sarkar",
-        institution: "Trinity College Dublin, Ireland",
+        institution: "SRM University, India",
         website: "https://www.tcd.ie/research/profiles/?profile=arsarkar",
         photo: "/images/speakers/Arup Sarkar.jpg",
         position: "-22px -5px",

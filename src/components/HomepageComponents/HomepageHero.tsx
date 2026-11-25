@@ -64,6 +64,9 @@ export default function HomepageHero() {
 
   const [current, setCurrent] = useState(0);
   const [hovered, setHovered] = useState(false);
+  // WHY: The hidden slides are only added after the first photo has loaded, so on slow mobile connections the
+  // visible photo gets the full bandwidth instead of sharing it with two photos nobody can see yet
+  const [firstSlideLoaded, setFirstSlideLoaded] = useState(false);
   const pausedUntil = useRef(0);
 
   // Auto-advance; paused while hovered, while the tab is hidden, briefly after manual navigation, and for reduced motion
@@ -99,13 +102,14 @@ export default function HomepageHero() {
       {/* Background slides — crossfade (all stacked, only the current one visible) */}
       {/* WHY: Tall enough (up to 640px / 75% of the screen) to show the mountains and the bridge in the photo, not just a strip of it */}
       <div className="relative h-[480px] sm:h-[540px] lg:h-[min(75vh,640px)] min-h-[460px]">
-        {slides.map((slide, index) => (
+        {slides.map((slide, index) => (index === 0 || index === current || firstSlideLoaded) && (
           <Image
             key={slide.src}
             src={slide.src}
             alt=""
             fill
             priority={index === 0}
+            onLoad={index === 0 ? () => setFirstSlideLoaded(true) : undefined}
             quality={90}
             // WHY: Hero spans 92vw on phones and 80vw (max 1280px) above; lets Next serve a right-sized file instead of the 3000px original
             sizes="(min-width: 1600px) 1280px, (min-width: 640px) 80vw, 92vw"

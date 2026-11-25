@@ -1,3 +1,5 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
 import { ArrowUpRight, MapPin } from "lucide-react";
 
@@ -30,6 +32,9 @@ export default function DelegateCard({
     zoom = 1.05,
 }: DelegateCardProps) {
     const { place, country } = splitInstitution(institution);
+    // WHY: On weak mobile signals the portrait arrives a moment after the card; fading it in over a tinted circle
+    // looks intentional, whereas popping in over a blank white circle looked like a broken image
+    const [photoLoaded, setPhotoLoaded] = useState(false);
 
     const content = (
         <>
@@ -38,13 +43,16 @@ export default function DelegateCard({
 
             {/* Portrait — WHY: 160x192 frame is kept identical to the old card so every speaker's tuned position/zoom still lines up */}
             <div className="relative mt-8 rounded-full p-[3px] bg-[#cbe1fc] shadow-sm transition-shadow duration-300 group-hover:shadow-md">
-                <div className="w-40 h-48 rounded-full overflow-hidden border-4 border-white bg-white">
+                <div className="w-40 h-48 rounded-full overflow-hidden border-4 border-white bg-[#dcebfd]">
                     <Image
                         src={photo}
                         alt={`Portrait of ${name}`}
                         width={160}
                         height={192}
-                        className="w-full h-full object-cover"
+                        onLoad={() => setPhotoLoaded(true)}
+                        className={`w-full h-full object-cover transition-opacity duration-500 ease-out motion-reduce:transition-none ${
+                            photoLoaded ? "opacity-100" : "opacity-0"
+                        }`}
                         style={{
                             objectPosition: position,
                             transform: `scale(${zoom})`,

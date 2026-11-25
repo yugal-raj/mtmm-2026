@@ -27,7 +27,7 @@ export default function Footer() {
                         <span className="text-lg font-bold text-white">MTMM 2026</span>
                     </div>
                     <p className="mt-3 max-w-sm leading-relaxed">
-                        5<sup>th</sup> Modern Trends in Molecular Magnetism · 2–5 December 2026 ·
+                        Modern Trends in Molecular Magnetism · 2–5 December 2026 ·
                         Department of Chemical Sciences, Tezpur University, Assam, India
                     </p>
                 </div>
